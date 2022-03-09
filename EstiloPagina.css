@@ -1,11 +1,13 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  background-image: url(https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2014/04/02/17/04/green-307835_960_720.png);
   background-size: 200vh;
   background-position: center;
   background-repeat: no-repeat;
+
 }
+
 
 .background {
   display: flex;
@@ -37,21 +39,21 @@ button {
   padding: 4px 8px;
 }
 
-h4 {
+h5 {
   color: #000000;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .resultado {
     margin-top: 20px;
+    margin-bottom: 20px;
   width: 300px;
-  height: 200px;
+  height: 50px;
   background-color: white;
+  background-position: bottom;
 }
 
-#valor2 {
 
-}
 
 label {
 
