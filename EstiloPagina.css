@@ -47,7 +47,7 @@ h5 {
 .resultado {
     margin-top: 20px;
     margin-bottom: 20px;
-  width: 300px;
+  width: 600px;
   height: 50px;
   background-color: white;
   background-position: bottom;
@@ -62,5 +62,16 @@ label {
     font-weight: bold;
     margin-top:  10px;
     margin-bottom: 10px;
+
+}
+
+#nome {
+align-items: center;
+margin-top: -30px;
+margin-bottom: 10px;
+}
+
+img {
+  align-items: center;
 
 }

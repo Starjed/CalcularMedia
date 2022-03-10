@@ -11,12 +11,12 @@ function soma() {
     var somaInicial =  (parseInt(valor1)) + (parseInt(valor2))
     var somaInicial2 = (parseInt(valor3)) + (parseInt(valor4))
     var somaTotal = (somaInicial + somaInicial2) / 4
-
+    var nome = document.getElementById("nome").value
 
 
     if (valor1 && valor2 && valor3 && valor4) {
-        document.getElementById("valorMedia").innerHTML = "A sua média foi: " + somaTotal
-        console.log("Soma total " + somaTotal)
+        document.getElementById("valorMedia").innerHTML = "Parabéns " + nome + " a sua média foi: "  + somaTotal
+        console.log(somaTotal)
     }
 
     }
